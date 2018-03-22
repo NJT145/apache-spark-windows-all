@@ -11,13 +11,13 @@
 @echo HADOOP_HOME=%my_root%\hadoop-3.0.0
 @echo ...
 
-@set PYSPARK_DRIVER_PYTHON=jupyter
-@echo PYSPARK_DRIVER_PYTHON=jupyter
-@echo ...
+@REM set PYSPARK_DRIVER_PYTHON=jupyter
+@REM echo PYSPARK_DRIVER_PYTHON=jupyter
+@REM echo ...
 
-@set PYSPARK_DRIVER_PYTHON_OPTS='notebook'
-@echo PYSPARK_DRIVER_PYTHON_OPTS='notebook'
-@echo ...
+@REM set PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+@REM echo PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+@REM echo ...
 
 @echo running %SPARK_HOME%\bin\pyspark
 @cmd /K %SPARK_HOME%\bin\pyspark
